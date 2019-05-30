@@ -1,4 +1,4 @@
-var i =0;
+
 var player1wins=0;
 var player2wins=0;
 for(let i=0;i<=5;i++){
