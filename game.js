@@ -29,8 +29,10 @@ for(let i=0;i<=5;i++){
         }
     }
     else if(player1wins==3){
-      console.log("Player 1 wins, best 3 out of 5!");
+      alert("Player 1 wins, best 3 out of 5!");
+      break;
     }else{
-      console.log("Player 2 wins best 3 out of 5");
+      alert("Player 2 wins best 3 out of 5");
+      break;
     } 
 }
