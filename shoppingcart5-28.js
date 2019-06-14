@@ -10,7 +10,7 @@ while(shopping.length>0){
     var item=shopping.pop();
     cart.push(item);
 }
-cart.sort();
+cart.sort()
 cart.reverse();
 var shoppingstring=cart.join(', ');
 
